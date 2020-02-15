@@ -8,4 +8,3 @@ let checkSavings = document.querySelector("#savings");
 let inputSum = document.querySelector("#sum");
 let inputPercent = document.querySelector("#percent");
 let inputYMD = document.querySelectorAll(".time-data input");
-
