@@ -131,19 +131,6 @@ let appData = {
     optionalExpenses: {},
     income: [],
     savings: false,
-    chooseIncome: function(){
-        // let items = askQuestionWithCorrectAnswer(() => prompt("Что принесет дополнительный доход? (через запятую)"));
-        // appData.income = items.split(", ");
-        // let item = askQuestionWithCorrectAnswer(() => prompt("Может быть что-то еще?"));
-        // appData.income.push(item);
-        // appData.income.sort();
-
-        // let incomeList = "Способы доп. заработка: ";
-        // appData.income.forEach((element, index) => {
-        //     incomeList += (index + 1) + ") " + element + "; ";
-        // });
-        // alert(incomeList);
-    }
 };
 
 function askQuestionWithCorrectAnswer (questionFunc){
@@ -155,16 +142,8 @@ function askQuestionWithCorrectAnswer (questionFunc){
     }
 }
 
-// appData.chooseIncome();
-// console.log(appData.income);
-
-// console.log("Наша программа включает в себя данные: ");
-// for (let item in appData){
-    // console.log(item + " : " + appData[item]);
-// }
-
 let changeAbilityForAllButtonsExeptStart = (disable = true) => {
-    // buttonTag.forEach( (b) => b.disabled = disable );
+    buttonTag.forEach( (b) => b.disabled = disable );
 };
 
 document.addEventListener('DOMContentLoaded', changeAbilityForAllButtonsExeptStart);
