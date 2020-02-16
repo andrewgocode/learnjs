@@ -105,9 +105,7 @@ checkSavings.addEventListener('click', () => {
     appData.savings = !appData.savings;
 });
 
-let calcSavings = () => {
-    console.log('calcSavings');
-    
+let calcSavings = () => {    
     if (appData.savings){
         let sum = +inputSum.value;
         let per = +inputPercent.value;
