@@ -7,7 +7,6 @@ const convert = (inputIn, InputOut) => {
         const requestPromise = () => {
             return new Promise((onSuccess, onError) => {
                 let request = new XMLHttpRequest();
-                console.log(request);
                 
                 request.open('GET', 'js/current.json');
                 request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
