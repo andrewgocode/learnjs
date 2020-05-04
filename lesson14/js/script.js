@@ -181,33 +181,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
   //Contact Form
-
   let contactForm = document.getElementById("form");
   sendForm(contactForm);
-//   let contactInputs = contactForm.getElementsByTagName('input');
-//   contactForm.addEventListener('submit', (e) => {
-    
-//     e.preventDefault();
-//     let contactRequest = new XMLHttpRequest();
-//     contactRequest.open("POST", "server.php");
-//     contactRequest.setRequestHeader("content-type", "application/json; charset=utf-8");
-
-//     let contactFormData = new FormData(contactForm);
-//     let contactObj = {};
-//     contactFormData.forEach((k,v) => {
-//       contactObj[k]=v;
-//     });
-//     let contactJson = JSON.stringify(contactObj);
-
-//     contactRequest.send(contactJson);
-//     contactRequest.addEventListener('load', () => {
-//         console.log(`contact sent with status ${contactRequest.status}`);
-//     });
-
-//     for (let i = 0; i < contactInputs.length; i++){
-//       contactInputs[i].value = '';
-//     }
-//   });
 });
-
-
